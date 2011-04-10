@@ -7,6 +7,7 @@ projects[] = ctools
 projects[] = features
 projects[] = migrate
 projects[] = references
+projects[] = strongarm
 
 projects[ol_features][type] = "module"
 projects[ol_features][download][type] = "git"
