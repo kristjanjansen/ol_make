@@ -10,6 +10,10 @@ projects[] = references
 
 projects[ol_migrate][type] = "module"
 projects[ol_migrate][download][type] = "git"
+projects[ol_migrate][download][url] = "https://github.com/kristjanjansen/ol_features.git"
+
+projects[ol_migrate][type] = "module"
+projects[ol_migrate][download][type] = "git"
 projects[ol_migrate][download][url] = "https://github.com/kristjanjansen/ol_migrate.git"
 
 projects[ol_migrate][type] = "theme"
