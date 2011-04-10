@@ -8,9 +8,9 @@ projects[] = features
 projects[] = migrate
 projects[] = references
 
-projects[ol_migrate][type] = "module"
-projects[ol_migrate][download][type] = "git"
-projects[ol_migrate][download][url] = "https://github.com/kristjanjansen/ol_features.git"
+projects[ol_features][type] = "module"
+projects[ol_features][download][type] = "git"
+projects[ol_features][download][url] = "https://github.com/kristjanjansen/ol_features.git"
 
 projects[ol_migrate][type] = "module"
 projects[ol_migrate][download][type] = "git"
