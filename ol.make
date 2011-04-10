@@ -3,8 +3,10 @@ api = 2
 
 projects[drupal][type] = core
 
+projects[] = ctools
 projects[] = features
 projects[] = migrate
+projects[] = references
 
 projects[ol_migrate][type] = "module"
 projects[ol_migrate][download][type] = "git"
