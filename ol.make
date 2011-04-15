@@ -9,13 +9,15 @@ projects[] = migrate
 projects[] = references
 projects[strongarm] = 2.0-beta2 
 
-projects[ol_features][type] = "module"
-projects[ol_features][download][type] = "git"
-projects[ol_features][download][url] = "https://github.com/kristjanjansen/ol_features.git"
-
 projects[ol_migrate][type] = "module"
 projects[ol_migrate][download][type] = "git"
 projects[ol_migrate][download][url] = "https://github.com/kristjanjansen/ol_migrate.git"
+; Uncomment this to get the edgy stuff
+; projects[ol_migrate][download][branch] = "dev"
+
+projects[ol_features][type] = "module"
+projects[ol_features][download][type] = "git"
+projects[ol_features][download][url] = "https://github.com/kristjanjansen/ol_features.git"
 
 projects[ol_theme][type] = "theme"
 projects[ol_theme][download][type] = "git"
